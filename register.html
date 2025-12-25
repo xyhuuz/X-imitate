@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/xc.css">
+</head>
+<body>
+    <div class="body2">
+        <div class="deep">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+            <div><h2> Create your account </h2></div>
+            <form action="" class="info" >
+            <div class="shuru">
+                <input type="text"name="uname" placeholder="Name">
+                <span class="msg"></span>
+            </div>
+            <div class="shuru">
+                <span class="iconfont icon-zhanghao"></span>
+                <input type="password"name="password" placeholder="Password">
+                <span class="msg"></span>
+            </div>
+            <div class="shuru">
+                <input type="password"name="confirm" placeholder="Confirm">
+                <span class="msg"></span>
+            </div>
+            <div class="bothdate">
+                <p>Date of birth</p>
+                <div>This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or something else.</div>
+            </div>
+            <div>
+                <div class="date">
+                    Month
+                    <select name="Month" value="" class="month" >
+                    <option value=""></option>
+                    <option value="1">January</option>   
+                    <option value="2">February</option>   
+                    <option value="3">March</option>   
+                    <option value="4">April</option> 
+                    <option value="5">May</option>  
+                    <option value="6">June</option>  
+                    <option value="7">July</option>  
+                    <option value="8">August</option>  
+                    <option value="9">September</option>  
+                    <option value="10">October</option>  
+                    <option value="11">November</option>  
+                    <option value="12">December</option>    
+                </select>
+                
+                    Day
+                    <select name="Day" value="" class="day">
+                    <option value=""></option>
+                    <option value="1">1</option>   
+                    <option value="2">2</option>   
+                    <option value="3">3</option>   
+                    <option value="4">4</option> 
+                    <option value="5">5</option>  
+                    <option value="6">6</option>  
+                    <option value="7">7</option>  
+                    <option value="8">8</option>  
+                    <option value="9">9</option>  
+                    <option value="10">10</option>  
+                    <option value="11">11</option>  
+                    <option value="12">12</option>    
+                </select>
+                
+                    Year
+                    <select name="Year" class="year">
+                    <option value=""></option>
+                    <option value="1">2006</option>   
+                    <option value="2">2005</option>   
+                    <option value="3">2004</option>   
+                    <option value="4">2003</option> 
+                    <option value="5">2002</option>  
+                    <option value="6">2001</option>  
+                    <option value="7">2000</option>  
+                    <option value="8">1999</option>  
+                    <option value="9">1998</option>  
+                    <option value="10">1997</option>  
+                    <option value="11">1996</option>  
+                    <option value="12">1995</option>    
+                </select>
+            </div>
+            <div class="submit">
+                <button type="button">NEXT</button>
+                
+            </div>
+            
+        </form>
+    </div>
+
+    <script>
+        
+        const uname = document.querySelector('[name=uname]')
+        const password = document.querySelector('[name=password]')
+        const confirm=document.querySelector('[name=confirm]')
+
+        const month = document.querySelector('.month')
+        const day = document.querySelector('.day')
+        const year = document.querySelector('.year')
+        const info = document.querySelector('.info')
+        
+
+        const array = JSON.parse(localStorage.getItem('data')) || []
+        //把表单获取过来
+
+
+
+
+uname.addEventListener('change',verifyName)
+  //change事件，每次内容发生了改变就触发
+  //用这个函数去写验证事件
+  function verifyName()
+  {
+    const span =uname.nextElementSibling //提示语是username的下一个兄弟
+    //验证字符串前先设定规则
+    const reg = /^[a-zA-Z0-9-_]{6,15}$/
+    if(!reg.test(uname.value)){//测试username里面的值是否符合规则, 我们取反代表如果不符合
+      span.innerHTML = '输入不合法,请输入6-10位'
+      return false//下面哪个事件如果函数返回的是false就会中断
+    }
+    else
+    {
+      span.innerHTML = ''//如果之前不合法过的话，再合法并且不清除span里面的东西，语句就会一直留着
+      return true
+    }
+  }
+
+
+   //需求五:密码验证
+  password.addEventListener('change',verifypwd)
+  //change事件，每次内容发生了改变就触发
+  //用这个函数去写验证事件
+  function verifypwd()
+  {
+    const span =password.nextElementSibling //提示语是phone的下一个兄弟
+    //验证字符串前先设定规则
+    const reg = /^[a-zA-Z0-9_]{6,20}$/
+    if(!reg.test(password.value)){//测试username里面的值是否符合规则, 我们取反代表如果不符合
+      span.innerHTML = '密码不合法,6-20位数字字母组成'
+      return false//下面哪个事件如果函数返回的是false就会中断
+    }
+    else
+    {
+      span.innerHTML = ''//如果之前不合法过的话，再合法并且不清除span里面的东西，语句就会一直留着
+      return true
+    }
+  }
+
+
+
+  //需求六:密码的再次验证
+  confirm.addEventListener('change',verifyconfirm)
+  //change事件，每次内容发生了改变就触发
+  //用这个函数去写验证事件
+  function verifyconfirm()
+  {
+    const span =confirm.nextElementSibling //提示语是phone的下一个兄弟
+    //不需要定义规则了
+    if(confirm.value!==password.value){//测试username里面的值是否符合规则, 我们取反代表如果不符合
+      span.innerHTML = '密码不一致'
+      return false//下面哪个事件如果函数返回的是false就会中断
+    }
+    else
+    {
+      span.innerHTML = ''//如果之前不合法过的话，再合法并且不清除span里面的东西，语句就会一直留着
+      return true
+    }
+  }
+        
+        //数据获取模块
+        info.addEventListener('submit',function(e){
+        e.preventDefault()
+        //非空判断
+        //没值就是假，非假就是真  也就是说下面只要有一个是空就会进入if
+        if(!uname.value || !password.value || !month.value||!day.value||!year.value||!confirm.value)
+        {
+            return alert('有内容没有输入！')
+            //return 就会直接结束这个函数就不会继续执行了
+        }
+        else   //都写了就可以添加数据
+        {
+            
+            array.push({
+                //关于stuId 的处理 
+                //新增的序号应该是最后一条数据的stuId+1
+                //数组[数组的长度-1].stuId
+                //但要判断，如果没有数据则是直接赋值为1，else就用上面的办法
+                //如果长度为0，那就是1，反之
+                uname: uname.value,
+                password: password.value,
+                month: month.value,
+                day: day.value,
+                year: year.value,
+            })
+
+            // 填写完以后重置表单
+            this.reset()
+
+
+            //之前没有视频没有写如何存入本地，这里可以再做一步
+            //括号里面第一个值是你把这个东西存进去，给它在里面赋的名字
+            //这样不断地把数据覆盖成array，保证存的是最新的数据
+            localStorage.setItem('data',JSON.stringify(array))//命名为data
+
+            location.href ='02登录界面.html'
+        }
+    })
+
+    </script>
+</body>
+</html>

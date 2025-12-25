@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/tishi.css">
+</head>
+<body>
+    <div class="body2">
+        <div class="deep">
+            <div class="head"><h2> 账号创建成功 </h2></div>
+
+            <div class="xinren">
+                <p>感谢您的信任！数据正在传递至服务器，点击下方按钮跳转回登录页面或等待5s后自动跳转。</p>
+            </div>
+
+            <button class="submit">
+                <div class="next">
+                    Next&nbsp;
+                </div>
+            </button>
+    </div>
+    <script>
+        const next = document.querySelector('.next')
+        let i = 5;
+        next.innerHTML = `Next&nbsp;(${i})`
+        const submit = document.querySelector('.submit')
+        submit.addEventListener('click',function(){
+            setTimeout(function(){
+            location.href ='index.html'
+            },200)
+        })
+        setInterval(function (){
+            i--
+            if(i>=0)
+            next.innerHTML=`Next &nbsp;(${i})`
+            else
+            {
+                location.href ='index.html'
+            }
+
+        },1000)
+    </script>
+</body>
+</html>

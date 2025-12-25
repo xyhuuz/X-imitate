@@ -1,0 +1,1863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/zhuye.css">
+</head>
+<body>
+    
+    <div class="body1">
+
+        <div class="zuo">
+            <a href="index.html"><img src="./resource/左上角的X.png" alt="[picture]" width="30px" height="30px" style="margin-top: 15px; margin-bottom: 30px;"></a>
+            
+            <div class="zuobiaoqian">
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/主页.png" alt="picture">
+                            <p>主页</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/探索.png" alt="picture">
+                            <p>探索</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/通知.png" alt="picture">
+                            <p>通知</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/私信.png" alt="picture">
+                            <p>私信</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/列表.png" alt="picture">
+                            <p>列表</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/书签.png" alt="picture">
+                            <p>书签</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/社群.png" alt="picture">
+                            <p>社群</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div class="personal">
+                            <img src="./resource/个人资料.png" alt="picture">
+                            <p>个人资料</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="zhuye">
+                    <a href="#">
+                        <div>
+                            <img src="./resource/更多.png" alt="picture">
+                            <p>更多</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="fatie" style="margin-top: 30px;">
+                    <a href="#">
+                        <div>发帖</div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="ziliao">
+                <img src="./resource/atri.png" alt="[picture]" style="margin-right: 5px;" class="tou">
+                <div>
+                    <p class="leftUserName">Armalite</p>
+                    <p class="leftAccount">@Eriri_forever</p>
+                </div>
+                <a class="sandian" href="#">
+                    <img src="./resource/三个点.png" alt="[picture]">
+                </a>
+            </div>
+        </div>
+
+        <div class="zhong">
+            <div class="dingbu">
+                <div class="tuijian">
+                    <a href="#">
+                        <div>
+                            <p>为你推荐</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="guanzhuing">
+                    <a href="#">
+                        <div>
+                            <p>正在关注</p>
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <img src="./resource/设置.png" alt="[picture]" width="30px" height="30px">
+            </div>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
+                            <!-- 推文大框 -->
+            <div class="pinglun">
+                
+
+            </div>
+            <!-- 推文大框 -->
+        </div>
+
+
+        <!-- 发帖模态框 -->
+        <div class="modal">   <!--声明一个容器-->
+            <div class="modal-content"><!--用来存放要展示的内容-->
+                <span class="close-button">&times;
+                </span><!-- &times是乘号的意思，用来制作关闭按钮-->
+                <div class="caogao">
+                    <a>草稿</a>    <!-- 希望右对齐-->
+                </div>
+                <br>
+                <div class="body002">
+               
+                <form action="" class="tuiWenBiaoDan">
+                    <div class="fatiewenzi">
+                        <span><img src="./resource/atri.png" alt=""class="fatietou"></span>
+                        <textarea  id="tx" placeholder="发布您的推文" cols="2" rows="10" maxlength="200"class="faTieShuRu"></textarea>
+                            <span class="total">0/200</span>
+                    </div>
+                    <div class="imgUpLoad"></div>
+                    <div class="video"></div>
+                    <input type="file" name="files" class="photoinput">  <!-- 文件上传 -->
+                    <input type="file" name="files" class="videoinput">
+                </form>
+                </div>
+                <div style="display: flex; justify-content: start;align-items: center;">
+                    <img src="./resource/图片上传.png" class="photoUpLoad"alt="">
+                    <img src="./resource/GIF上传.png" class="videoUpLoad"alt="">
+                    <img src="./resource/分点上传.png" alt="">
+                    <img src="./resource/表情上传.png" alt="">
+                    <img src="./resource/定时上传.png" alt="">
+                    <img src="./resource/位置共享.png" alt="">
+                    <a href="" class="fatieButton" style="display: inline-block; vertical-align: middle;"> 发贴</a>
+                </div>
+            </div>
+        </div>
+<!-- 发帖模态框 -->
+
+
+
+
+
+
+
+
+
+ <!-- 评论模态框 -->
+ <div class="commentModal">   <!--声明一个容器-->
+    <div class="comment-modal-content"><!--用来存放要展示的内容-->
+        <span class="comment-close-button">&times;</span><!-- &times是乘号的意思，用来制作关闭按钮-->
+        <div class="caogao">
+            <a>草稿</a>    <!-- 希望右对齐-->
+        </div>
+        <br>
+        <div class="body004">
+            <div class="hfpl" style="border-bottom: 1px solid #999;">
+                <div class="id"><a id="${ele.id}"></a>
+                    <img src="./resource/atri.png" alt="[picture]" class="fabuzhe"><b class="beUserName">${ele.uname}</b> · <a class="beUserAccount">@${ele.uname}</a> · <a class="beUserTime">${ele.time}</a>0
+                    
+                </div>
+
+                <div class="leirong">
+                    <div class="beUserText">video/image</div>
+                    <span>回复 <span class="beUserAccount2" >@123456</span></span>
+                </div>
+
+            </div>
+        <form action="" class="pinglunBiaoDan">
+            <div class="pinglunwenzi">
+                <span><img src="./resource/atri.png" alt="" class="huifuzhe"></span>
+                <textarea  id="tx2" placeholder="发布您的评论" cols="2" rows="10" maxlength="200"class="replyShuRu"></textarea>
+                    <span class="total2">0/200</span>
+            </div>
+            <div class="replyimgUpLoad"></div>
+            <div class="replyvideo"></div>
+            <input type="file" name="files" class="replyphotoinput">  <!-- 文件上传 -->
+            <input type="file" name="files" class="replyvideoinput">
+        </form>
+        </div>
+        <div style="display: flex; justify-content: start;align-items: center;">
+            <img src="./resource/图片上传.png" class="replyphotoUpLoad"alt="">
+            <img src="./resource/GIF上传.png" class="replyvideoUpLoad"alt="">
+            <img src="./resource/分点上传.png" alt="">
+            <img src="./resource/表情上传.png" alt="">
+            <img src="./resource/定时上传.png" alt="">
+            <img src="./resource/位置共享.png" alt="">
+            <a href="" class="replyButton" style="display: inline-block; vertical-align: middle;"> 回复</a>
+        </div>
+    </div>
+</div>
+<!-- 评论模态框 -->
+
+
+
+
+<div class="you">
+    <div class="sousuo">
+        <input type="text" class="suosouk" placeholder="搜索">
+        <ul class="result-list">
+            <li class="resultsreach"><a href="#" class="result">尝试搜索人物,关键词,或列表</a></li>
+            <li><a href="#">第三次世界大戦</a></li>
+            <li><a href="#">ブルーアーカイブ-Blue Archive-</a></li>
+            <li><a href="#">Russia Ukraine War Report</a></li>
+            <li><a href="#">台灣地震</a></li>
+        </ul>
+    </div>
+	
+	<!--时间太紧了老师，只好直接贴图了QAQ-->
+    <div class="xinxianshi">
+        <!-- <h2>有什么新鲜事？</h2> -->
+        <a href="./qaq.html"><img src="./resource/新鲜事1.png" alt="[picture]" margin: auto;></a>
+    </div>
+    <div class="tjgz">
+        <!-- <h2>推荐关注</h2> -->
+        <a href="./qaq.html"><img src="./resource/推1荐关注.png" alt="[picture]" margin: auto></a>
+    </div>
+</div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const array = JSON.parse(localStorage.getItem('data')) || []
+        const share = JSON.parse(localStorage.getItem('share')) || []//更新share
+        
+////////////////////////////////////////////////////////////////////////////
+//评论模态框头像控制
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+        //推荐搜索框效果
+        const suosouk = document.querySelector('.suosouk')
+        const sousuo = document.querySelector('.sousuo')
+        const ul = document.querySelector('.result-list')
+        suosouk.addEventListener('focus',function(){
+            //sousuo.classList.add('activesearch')//给搜索框加个蓝色的效果
+            ul.style.display='block'//block显示 
+        })
+
+        suosouk.addEventListener('blur',function(){
+            
+            setTimeout(function(){
+            ul.style.display='none'//block显示 
+            },100)
+            
+        })
+
+ //////////////////////////////////////////////////////////////////////////////////
+                //搜索控制   
+
+            const result = document.querySelector('.result')
+            let shuru //监听到输入
+            //console.log(suosouk.value.length)
+            let shurutemp 
+            let position = 0
+            let targetplace = 0
+            suosouk.addEventListener('input',function(){
+            shuru = suosouk.value//监听到输入
+            //console.log(suosouk.value.length)
+            
+            position = 0
+            targetplace = 0
+            let i;
+            for( i = 0;i<share.length;i++)
+            {
+                position=share[i].text.indexOf(shuru)
+                if(position===-1)
+                {
+                    continue
+                }
+                else
+                {
+                    targetplace=i;
+                    break;
+                }
+            }
+            
+            shurutemp= shuru
+
+            if(suosouk.value.length===0)
+            {
+                result.innerHTML= '尝试搜索人物,关键词,或列表'
+            }
+            else if(i!=share.length)
+            {
+                result.innerHTML=share[targetplace].text
+                result.href=`#${share[targetplace].id}`
+            }
+            else
+            {
+                result.innerHTML= '无结果,请输入其他关键词'
+            }
+        })
+            const resultsreach = document.querySelector('.resultsreach')
+            resultsreach.addEventListener('mouseenter',function(){
+                if(result.innerHTML != '尝试搜索人物,关键词,或列表'&&result.innerHTML != '无结果,请输入其他关键词')
+                {
+                    //resultsreach.addEventListener('click',function(){
+                        suosouk.value = share[targetplace].text
+                    //})
+                }
+                //document.documentElement.scrollTop = 0;
+        })
+            // resultsreach.addEventListener('mouseout',function(){
+            //     if(result.innerHTML != '尝试搜索人物,关键词,或列表'&&result.innerHTML != '无结果,请输入其他关键词')
+            //     {
+            //         //resultsreach.addEventListener('click',function(){
+            //             suosouk.value = shurutemp
+            //         //})
+            //     }
+            // })
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+        //推文输入框事件
+        const tx = document.querySelector('#tx')//获取文本框
+        const total = document.querySelector('.total')
+        tx.addEventListener('focus',function(){//这里是文本框获得光标，所以给文本框加事件
+           total.classList.toggle('total_active')
+        })
+        //else隐藏
+        tx.addEventListener('blur',function(){//这里是文本框获得光标，所以给文本框加事件
+            total.classList.toggle('total_active')
+        })
+
+        tx.addEventListener('input',function(){
+            total.innerHTML=`${tx.value.length}/200`
+        })
+///////////////////////////////////////////////////////////////////////////////////////
+        //个人主页跳转
+        const personal = document.querySelector('.personal')
+        personal.addEventListener('click',function(){
+            location.href ='personal.html'
+        })
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+        //点赞控制
+        const pinglun = document.querySelector('.pinglun')
+        pinglun.addEventListener('click',function(e){
+        if(e.target.className ==='agree')//如果点击的是点赞
+        {
+            
+            let k=0
+            //console.log(e.target.nextElementSibling.className)//获取到编号
+            
+            for(let i = 0;i<tuiWen.length;i++)
+            {
+                //console.log(tuiWen[i].id)  //tuiWen[i].id返回字符串
+                // const target=String(tuiWen[i].id)
+                // console.log(typeof target)
+                if(String(tuiWen[i].id)===String(e.target.nextElementSibling.className))
+                {
+                    k=i;
+                }
+            }
+            //console.log(+tuiWen[i].id)
+            //console.log(k)
+            if(tuiWen[k].agree[0]!=sign[(sign.length)-1].uname)
+            {
+                
+                
+                tuiWen[k].agree.unshift(sign[(sign.length)-1].uname);
+                localStorage.setItem('tuiWen',JSON.stringify(tuiWen))
+                render()
+            }
+            else if(tuiWen[k].agree[0]===sign[(sign.length)-1].uname)
+            {
+                
+                tuiWen[k].agree.splice(0,1)//删除完以后还要把最新的数组传送给本地
+                localStorage.setItem('tuiWen',JSON.stringify(tuiWen))
+                render()
+            }
+            
+            
+        }
+        })
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+        //评论控制
+        pinglun.addEventListener('click',function(e){
+        if(e.target.className ==='comment')//如果点击的是回复
+        {
+        
+            //就弹出回复框
+                const huifuzhe = document.querySelector('.huifuzhe')
+                huifuzhe.src = sign[sign.length-1].tou
+
+                // 发帖模块框开关控制
+            
+            const commentModal = document.querySelector('.commentModal')
+            const commentClose = document.querySelector('.comment-close-button')
+                commentModal.classList.add('commentActive')
+                
+
+                const tx2 =document.querySelector('#tx2')
+                const total2 = document.querySelector('.total2')
+                tx2.addEventListener('focus',function(){//这里是文本框获得光标，所以给文本框加事件
+                    total2.classList.toggle('total2_active')
+                    
+                })
+                //else隐藏
+                tx2.addEventListener('blur',function(){//这里是文本框获得光标，所以给文本框加事件
+                    total2.classList.toggle('total2_active')
+                })
+
+                tx2.addEventListener('input',function(){
+
+                    total2.innerHTML=`${tx2.value.length}/200`
+                })
+               
+            
+                commentClose.addEventListener('click',function(){
+                   
+                commentModal.classList.remove('commentActive')
+                {
+                    const replyShuRu = document.querySelector('.replyShuRu')
+                    const replyimgUpLoad = document.querySelector('.replyimgUpLoad')
+                    const replyvideo = document.querySelector('.replyvideo')
+                     replyShuRu.value=''
+                     replyimgUpLoad.innerHTML = ''
+                     replyvideo.innerHTML=''
+                     videotemp = ''
+                     temp=''
+                }
+                
+            })
+            
+
+            let k=0
+            //console.log(e.target.nextElementSibling.className)//获取到编号
+            
+            for(let i = 0;i<tuiWen.length;i++)
+            {
+                //console.log(tuiWen[i].id)  //tuiWen[i].id返回字符串
+                // const target=String(tuiWen[i].id)
+                // console.log(typeof target)
+                if(String(tuiWen[i].id)===String(e.target.nextElementSibling.className))
+                {
+                    k=i;
+                }//知道是哪一条推文,并且知道它在tuiWen数组的下标，接着我要获取到这个发布的人叫什么
+            }
+            tuiWen[k].account//获得推文发布者的账号,改变发布者头像· 
+            for(let i = 0;i<array.length;i++)
+            {
+                if(String(tuiWen[k].account)===String(array[i].account))
+                {
+                    const fabuzhe = document.querySelector('.fabuzhe')
+                    fabuzhe.src= array[i].tou
+                }
+            }
+            tuiWen[k].comment.push(sign[(sign.length)-1].uname)//评论数+1
+           
+            
+            const beUserName = document.querySelector('.beUserName')
+            const beUserAccount = document.querySelector('.beUserAccount')
+            const beUserTime = document.querySelector('.beUserTime')
+            const beUserText = document.querySelector('.beUserText')
+            const beUserAccount2 = document.querySelector('.beUserAccount2')
+
+            function getTextBeforeChar(str, char) {
+            var index = str.indexOf(char);
+            if (index !== -1) {
+                return str.substring(0, index);
+            }
+            return str; // 如果字符不存在，返回原字符串
+        }
+
+            const originalText = tuiWen[k].account
+            const char = "@";
+            const textBeforeChar = getTextBeforeChar(originalText, char);
+
+            beUserName.innerHTML=tuiWen[k].uname  //获得发布者的名字
+            beUserAccount.innerHTML = `@${textBeforeChar}`//获得发布者的账号
+            beUserAccount2.innerHTML = `@${textBeforeChar}`//获得发布者的账号
+            beUserTime.innerHTML =  tuiWen[k].time   //获得推文发布的时间
+            beUserText.innerHTML = `说："${tuiWen[k].text}"`   //获得它发布的文字
+            //可能需要新增一个回复帖
+            //弹出回复发贴框
+            
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //发帖图片上传,图片预览
+       const input = document.querySelector('.replyphotoinput')
+       const photoUpLoad = document.querySelector('.replyphotoUpLoad')
+       const imgUpLoad = document.querySelector('.replyimgUpLoad')
+       let temp = ''//图片地址缓存
+       photoUpLoad.addEventListener('click',function(){
+        input.click();
+        input.addEventListener('change',function(){
+        //console.log(input.files)  //文件选择files得到的是列表
+        const reader = new FileReader()
+        reader.addEventListener('load',function(){
+            temp=reader.result
+            imgUpLoad.innerHTML = `<img src="${reader.result}">`
+            // imgUpLoad.src=reader.result
+        })
+        reader.readAsDataURL(input.files[0])//读取文件URL地址
+        // imgUpLoad.innerHTML = `<img src="./resource/atri.png" alt="">`
+        })
+       })
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   //发帖视频上传,视频预览
+       const videoinput = document.querySelector('.replyvideoinput')  //这个是视频上传的input
+       const videoUpLoad = document.querySelector('.replyvideoUpLoad')//这个是点击GIF出来上传文件的按钮
+       const video = document.querySelector('.replyimgUpLoad')//这个是展示视频的那个框
+       let videotemp = ''//视频地址缓存
+       videoUpLoad.addEventListener('click',function(){
+        
+        videoinput.click();
+        videoinput.addEventListener('change',function(){
+        //console.log(input.files)  //文件选择files得到的是列表
+        const reader2 = new FileReader()
+        reader2.addEventListener('load',function(){
+            videotemp=reader2.result   //记录视频地址
+            video.innerHTML = `<video src="${reader2.result}"  controls>`   // 生成一个框去展示视频
+            
+        })
+        reader2.readAsDataURL(videoinput.files[0])//读取文件URL地址
+        
+        })
+       })
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   
+
+        //回复发送设置
+       const replyButton = document.querySelector('.replyButton')
+       replyButton.addEventListener('click',function(e){
+            
+            e.preventDefault()
+            //点击发送后获取输入框中的值
+            const replyShuRu = document.querySelector('.replyShuRu')
+            //获取目前登录者的编号(编号是从0开始起的)
+            const sign = JSON.parse(localStorage.getItem('sign')) || []    //使用sign对象数组获取本地sign中的内容
+            const userName = sign[(sign.length)-1].uname//看看最后登录者叫什么
+            const account = sign[(sign.length)-1].account//看看最后登录者的账号
+            const tou = sign[(sign.length)-1].tou//看看最后登录者的账号
+                //if(temp!='')//有图片有视频
+                    
+                    
+
+                    tuiWen.unshift({
+                    reply:true,        //确认是否是回复贴
+                    replyer:textBeforeChar,      //记录回复的人的账号
+                    account:account,   //记录发布者的账号
+                    uname: userName,  //记录发布者的名字
+                    tou:tou,        //记录发布者的头像
+                    text: replyShuRu.value,      //记录发布的文本内容
+                    img:temp,                        //记录发布的图片
+                    video:videotemp,                         //记录发布的视频
+                    time:new Date().toLocaleString() ,  //记录发布的时间
+                    id:Math.floor(Math.random()*( 1000000 - 1 + 1 ) + 1 ),   //给予推文一个编号
+                    agree:[],   //记录推文的点赞人叫什么
+                    share:[],     //记录转发推文的人叫什么
+                    comment:[],   //记录评论推文的人叫什么
+                    hot:0,       //热度
+                        })
+                
+                    share.unshift({               //用于识别搜索框和
+                        text: replyShuRu.value,   //利用share数组压入输入的内容
+                        id:`px${tuiWen[0].id}`,          //记录编号
+                    })
+
+            
+
+            render()//渲染模块
+            // 填写完以后重置表单
+            const pinglunBiaoDan = document.querySelector('.pinglunBiaoDan')
+            pinglunBiaoDan.reset()   //获取推文表单，重置推文表单
+
+
+            //之前没有视频没有写如何存入本地，这里可以再做一步
+            //括号里面第一个值是你把这个东西存进去，给它在里面赋的名字
+            //这样不断地把数据覆盖成array，保证存的是最新的数据
+            localStorage.setItem('share',JSON.stringify(share))//压入
+            localStorage.setItem('tuiWen',JSON.stringify(tuiWen))
+            
+            commentModal.classList.remove('commentActive')//关闭模态框 
+            {
+                    const replyShuRu = document.querySelector('.replyShuRu')
+                    const replyimgUpLoad = document.querySelector('.replyimgUpLoad')
+                    const replyvideo = document.querySelector('.replyvideo')
+                     replyShuRu.value=''
+                     replyimgUpLoad.innerHTML = ''
+                     replyvideo.innerHTML=''
+                     videotemp = ''
+                     temp=''
+            }
+       })
+
+
+
+       event.preventDefault();
+
+            
+        }
+        })
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+        //转贴控制
+        pinglun.addEventListener('click',function(e){
+        if(e.target.className ==='share')//如果点击的是点赞
+        {
+            
+            let k=0
+            console.log(e.target.nextElementSibling.className)//获取到编号
+            for(let i = 0;i<tuiWen.length;i++)
+            {
+                if(String(tuiWen[i].id)===String(e.target.nextElementSibling.className))
+                {
+                    k=i;
+                }
+            }
+            if(tuiWen[k].share[0]!=sign[(sign.length)-1].uname)
+            {
+                
+                
+                tuiWen[k].share.unshift(sign[(sign.length)-1].uname);
+                localStorage.setItem('tuiWen',JSON.stringify(tuiWen))
+                render()
+            }
+            else if(tuiWen[k].share[0]===sign[(sign.length)-1].uname)
+            {
+                
+                tuiWen[k].share.splice(0,1)//删除完以后还要把最新的数组传送给本地
+                localStorage.setItem('tuiWen',JSON.stringify(tuiWen))
+                render()
+            }
+            
+            
+        }
+        })
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        
+        // 发帖模块框开关控制
+        const fatie = document.querySelector('.fatie')
+        const modal = document.querySelector('.modal')
+        const close = document.querySelector('.close-button')
+        fatie.addEventListener('click',function(){
+            modal.classList.toggle('active')
+            //发贴头像框控制
+            const fatietou = document.querySelector('.fatietou')
+            const sign = JSON.parse(localStorage.getItem('sign')) || []
+            const tou = sign[(sign.length)-1].tou
+            fatietou.src = tou
+
+            total.innerHTML=`${tx.value.length}/200`
+            // imgUpLoad.innerHTML = ''  
+            // video.innerHTML=''
+            faTieShuRu.value=''
+            videotemp = ''
+            temp=''
+        })
+        close.addEventListener('click',function(){
+            
+            modal.classList.toggle('active')
+            const faTieShuRu = document.querySelector('.faTieShuRu')
+            faTieShuRu.value=''
+            imgUpLoad.innerHTML = ''
+            video.innerHTML=''
+            videotemp = ''
+            temp=''
+        })
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+       //左下角名字控制
+
+
+            function getTextBeforeChar(str, char) {
+            var index = str.indexOf(char);
+            if (index !== -1) {
+                return str.substring(0, index);
+            }
+            return str; // 如果字符不存在，返回原字符串
+        }
+        const leftUserName = document.querySelector('.leftUserName')
+        const leftAccount = document.querySelector('.leftAccount')
+        const sign = JSON.parse(localStorage.getItem('sign')) || []
+        
+///////////////////////////////////////
+        //头像控制
+        const tou = document.querySelector('.tou')
+        tou.src = `${sign[(sign.length)-1].tou}`
+/////////////////////////////////////////////////
+
+
+        const originalText = `${sign[(sign.length)-1].account}`
+        const char = "@";
+        const textBeforeChar = getTextBeforeChar(originalText, char);
+        leftUserName.innerHTML = sign[(sign.length)-1].uname
+        leftAccount.innerHTML = `@${textBeforeChar}`
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //发帖图片上传,图片预览
+       const input = document.querySelector('.photoinput')
+       const photoUpLoad = document.querySelector('.photoUpLoad')
+       const imgUpLoad = document.querySelector('.imgUpLoad')
+       let temp = ''//图片地址缓存
+       photoUpLoad.addEventListener('click',function(){
+        input.click();
+        input.addEventListener('change',function(){
+        //console.log(input.files)  //文件选择files得到的是列表
+        const reader = new FileReader()
+        reader.addEventListener('load',function(){
+            temp=reader.result
+            imgUpLoad.innerHTML = `<img src="${reader.result}">`
+            // imgUpLoad.src=reader.result
+        })
+        reader.readAsDataURL(input.files[0])//读取文件URL地址
+        // imgUpLoad.innerHTML = `<img src="./resource/atri.png" alt="">`
+        })
+       })
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   //发帖视频上传,视频预览
+       const videoinput = document.querySelector('.videoinput')  //这个是视频上传的input
+       const videoUpLoad = document.querySelector('.videoUpLoad')//这个是点击GIF出来上传文件的按钮
+       const video = document.querySelector('.imgUpLoad')//这个是展示视频的那个框
+       let videotemp = ''//视频地址缓存
+       videoUpLoad.addEventListener('click',function(){
+        
+        videoinput.click();
+        videoinput.addEventListener('change',function(){
+        //console.log(input.files)  //文件选择files得到的是列表
+        const reader2 = new FileReader()
+        reader2.addEventListener('load',function(){
+            videotemp=reader2.result   //记录视频地址
+            video.innerHTML = `<video src="${reader2.result}"  controls>`   // 生成一个框去展示视频
+            
+        })
+        reader2.readAsDataURL(videoinput.files[0])//读取文件URL地址
+        
+        })
+       })
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+       
+        const tuiWen = JSON.parse(localStorage.getItem('tuiWen')) || []   //tuiWen对象数组来记录推文中的各种信息
+        const faTieShuRu = ''
+
+       //推文头像更换
+       let m;
+        for(let i=0;i<tuiWen.length;i++)
+        {
+            if(String(tuiWen[i].account)===String(sign[sign.length-1].account))
+            {
+                tuiWen[i].tou = sign[sign.length-1].tou
+                render()
+            }
+        }
+
+
+
+       //发贴发送设置
+       const fatieButton = document.querySelector('.fatieButton')
+       fatieButton.addEventListener('click',function(e){
+            e.preventDefault()
+            //点击发送后获取输入框中的值
+            const faTieShuRu = document.querySelector('.faTieShuRu')
+            //获取目前登录者的编号(编号是从0开始起的)
+            const sign = JSON.parse(localStorage.getItem('sign')) || []    //使用sign对象数组获取本地sign中的内容
+            const userName = sign[(sign.length)-1].uname//看看最后登录者叫什么
+            const account = sign[(sign.length)-1].account//看看最后登录者的账号
+            const tou = sign[(sign.length)-1].tou
+                //if(temp!='')//有图片有视频
+                    
+                    
+
+                    tuiWen.unshift({
+                    reply:false,
+                    account:account,   //记录发布者的账号
+                    uname: userName,  //记录发布者的名字
+                    tou: tou ,            //记录发贴人的头像
+                    text: faTieShuRu.value,      //记录发布的文本内容
+                    img:temp,                        //记录发布的图片
+                    video:videotemp,                         //记录发布的视频
+                    time:new Date().toLocaleString() ,  //记录发布的时间
+                    id:Math.floor(Math.random()*( 1000000 - 1 + 1 ) + 1 ),   //给予推文一个编号
+                    agree:[],   //记录推文的点赞人叫什么
+                    share:[],     //记录转发推文的人叫什么
+                    comment:[],   //记录评论推文的人叫什么
+                    hot:0,       //热度
+                        })
+                
+                    share.unshift({               //用于识别搜索框和
+                        text: faTieShuRu.value,   //利用share数组压入输入的内容
+                        id:`px${tuiWen[0].id}`,          //记录编号
+                    })
+
+            
+
+            render()//渲染模块
+            // 填写完以后重置表单
+            const tuiWenBiaoDan = document.querySelector('.tuiWenBiaoDan')
+            tuiWenBiaoDan.reset()   //获取推文表单，重置推文表单
+
+
+            //之前没有视频没有写如何存入本地，这里可以再做一步
+            //括号里面第一个值是你把这个东西存进去，给它在里面赋的名字
+            //这样不断地把数据覆盖成array，保证存的是最新的数据
+            localStorage.setItem('share',JSON.stringify(share))//压入
+            localStorage.setItem('tuiWen',JSON.stringify(tuiWen))
+            imgUpLoad.innerHTML = ''
+            modal.classList.toggle('active')//关闭模态框 
+            
+       })
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //左下角头像控制
+
+
+    
+
+    
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function render()  //渲染函数
+    {
+        const trArr=tuiWen.map(function(ele,index)
+        {//trArr是处理好的数组          //使用map方法
+    // const initData = [   //数组中的对象存的元素
+        
+ ////////////////点赞转推判断
+            let flag3=0//点赞判断
+            let flag4=0//转推判断
+            for(let i =0;i<ele.agree.length;i++)
+            {
+                if(ele.agree[i]===sign[(sign.length)-1].uname)
+                {
+                    flag3=1;
+                }
+            }
+            for(let i =0;i<ele.share.length;i++)
+            {
+                if(ele.share[i]===sign[(sign.length)-1].uname)
+                {
+                    flag4=1;
+                }
+            }
+
+            
+            function getTextBeforeChar(str, char) {
+            var index = str.indexOf(char);
+            if (index !== -1) {
+                return str.substring(0, index);
+            }
+            return str; // 如果字符不存在，返回原字符串
+        }
+       
+        const originalText = `${ele.account}`
+        const char = "@";
+        const textBeforeChar = getTextBeforeChar(originalText, char);
+
+
+
+
+
+        if(ele.reply===false)//如果不是回复贴
+        {
+            if(ele.img===''&&ele.video===''&&flag3===0&&flag4===0)//如果没图片没视频 没点赞 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        if(ele.img===''&&ele.video===''&&flag3===1&&flag4===0)//没图片 没视频 点赞了 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+
+        if(ele.img===''&&ele.video===''&&flag3===0&&flag4===1)//如果没图片没视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        if(ele.img===''&&ele.video===''&&flag3===1&&flag4===1)//如果没图片没视频 点赞了 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img!=''&&ele.video===''&&flag3===0&&flag4===0)//如果 有图片 没视频 没点赞 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img!=''&&ele.video===''&&flag3===1&&flag4===0)// 有图片 没视频 点赞了 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+        
+
+        else if(ele.img!=''&&ele.video===''&&flag3===0&&flag4===1)// 有图片 没视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img!=''&&ele.video===''&&flag3===1&&flag4===1)// 有图片 没视频 点赞了 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div class="tuiwentext">${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img===''&&ele.video!=''&&flag3===0&&flag4===0)//如果 没图片 有视频 没点赞 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div class="tuiwentext">${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img===''&&ele.video!=''&&flag3===1&&flag4===0)//如果 没图片 有视频 点赞了 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div class="tuiwentext">${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img===''&&ele.video!=''&&flag3===0&&flag4===1)//如果 没图片 有视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div class="tuiwentext">${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+        
+
+        else if(ele.img===''&&ele.video!=''&&flag3===1&&flag4===1)//如果 没图片 有视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+
+                    <div class="leirong">
+                        <div class="tuiwentext">${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        } 
+        }
+
+        ////////////////////////////////////////////////////////////////////////////////////
+
+        else if(ele.reply===true)//如果是回复推
+        {
+            if(ele.img===''&&ele.video===''&&flag3===0&&flag4===0)//如果没图片没视频 没点赞 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        if(ele.img===''&&ele.video===''&&flag3===1&&flag4===0)//没图片 没视频 点赞了 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+
+        if(ele.img===''&&ele.video===''&&flag3===0&&flag4===1)//如果没图片没视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        if(ele.img===''&&ele.video===''&&flag3===1&&flag4===1)//如果没图片没视频 点赞了 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img!=''&&ele.video===''&&flag3===0&&flag4===0)//如果 有图片 没视频 没点赞 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img!=''&&ele.video===''&&flag3===1&&flag4===0)// 有图片 没视频 点赞了 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+        
+
+        else if(ele.img!=''&&ele.video===''&&flag3===0&&flag4===1)// 有图片 没视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img!=''&&ele.video===''&&flag3===1&&flag4===1)// 有图片 没视频 点赞了 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <img src="${ele.img}" alt="[picture]">
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img===''&&ele.video!=''&&flag3===0&&flag4===0)//如果 没图片 有视频 没点赞 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img===''&&ele.video!=''&&flag3===1&&flag4===0)//如果 没图片 有视频 点赞了 没转推
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+
+
+        else if(ele.img===''&&ele.video!=''&&flag3===0&&flag4===1)//如果 没图片 有视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞数量.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+        
+
+        else if(ele.img===''&&ele.video!=''&&flag3===1&&flag4===1)//如果 没图片 有视频 没点赞 转推了
+        {
+            return `
+        <div class="pl1" style="border-bottom: 1px solid #999;">
+                    <div class="id"><a id="px${ele.id}"></a>
+                        <img src="${ele.tou}" alt="[picture]">
+                        <p><b class="pinglunName">${ele.uname}</b><span> @${textBeforeChar}</span> · ${ele.time}</p>
+                    </div>
+                    <div class="replyer">回复:  @${ele.replyer}</div>
+                    <div class="leirong">
+                        <div>${ele.text}</div>
+                        <video src="${ele.video}" controls>
+                    </div>
+
+                    <div class="fuction">
+                        <div>
+                            <img class="comment" src="./resource/评论数量显示.png" alt="[picture]">
+                           <a class="${ele.id}" >${ele.comment.length}</a>
+                        </div>
+                        <div>
+                            <img class="share" src="./resource/转推效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.share.length}</a>
+                        </div>
+                        <div>
+                            <img class="agree" src="./resource/点赞效果.png" alt="[picture]">
+                            <a class="${ele.id}">${ele.agree.length}</a>
+                        </div>
+                        <div>
+                            <img class="hot" src="./resource/热度.png" alt="[picture]">
+                            <a>${(ele.agree.length*2+ele.share.length+ele.comment.length*2)}</a>
+                        </div>
+                        <img src="./resource/推文书签.png" alt="[picture]">
+                        <img src="./resource/推文转发.png" alt="[picture]">
+                    </div>
+                </div>`
+        }
+        }
+        
+
+
+        })
+
+        //注意，trArr是数组，不能直接追加给pinglun
+        pinglun.innerHTML = trArr.join('')//最后把他变成无缝字符串即可完成
+
+    }
+    render()  //记得调用一下函数，里面你不调用函数，这个函数就是废的
+
+    </script>
+</body>
+</html>
