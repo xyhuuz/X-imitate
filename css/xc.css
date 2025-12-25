@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body2{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+    width: 600px;
+    height: 650px;
+    background-color: #fff;
+    border: #eee solid 1px;
+    border-radius: 20px;
+}
+
+.deep{
+    margin: 10px 80px;
+    
+
+}
+
+.deep h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.info .msg{
+    display: inline;
+    color: #ff4d4f;
+    font-size: 13px;
+    line-height: 18px;
+    /* position: absolute; */
+    /* left: 2px;
+    bottom: 2px; */
+}
+.shuru{
+    position: relative;
+    
+    /* padding-bottom: 24px;   */
+ /* 控制两个框之间的距离 */
+}
+
+.shuru input{
+    margin-top: 17px;
+    width: 440px;
+    height: 60px;
+    border-radius: 5px;
+}
+/* .info {
+    padding-left: 460px;
+} */   
+
+.bothdate p{
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bothdate div{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.info input {
+    /* width: 300px;
+    height: 50px; */
+    border-radius: 5px;
+    border: 1px solid #888888;
+    padding-left: 5px;
+}
+
+.date .month{
+    /* width: 180px; */
+    width: 100px;
+    height: 40px;
+    border: 1px solid #888888;
+    padding-left: 5px;
+    text-align: center;
+    
+}
+.date .day{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #888888;
+    padding-left: 5px;
+    text-align: center;
+
+}
+.date .year{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #888888;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.submit{
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    vertical-align: bottom;
+    height: 60px;
+    width: 440px;
+    line-height: 60px;
+    border-radius: 30px;
+    /* background-color: #1d9bf0; */
+}
+
+.sigin_submit{
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    vertical-align: bottom;
+    height: 60px;
+    width: 440px;
+    line-height: 60px;
+    border-radius: 30px;
+    /* background-color: #1d9bf0; */
+}
+
+.submit div{
+    height: 60px;
+    width: 440px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: #eee;
+    background-color: #474a4d;
+    border: none;
+    /* position: relative; 
+    vertical-align: bottom; */
+    
+}
+
+.sigin_submit div{
+    height: 60px;
+    width: 440px;
+    border-radius: 30px;
+    font-size: 25px;
+    color: #eee;
+    background-color: #474a4d;
+    border: none;
+    /* position: relative; 
+    vertical-align: bottom; */
+    
+}
+
+.sigin_submit div:hover{
+    background-color: #77797c;
+    cursor: pointer;
+}
+
+.submit div:hover{
+    background-color: #77797c;
+    cursor: pointer;
+}
+
+.active{
+    border: 2px solid #3e4fe6
+}

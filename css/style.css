@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.next{
+    color: #FFFFFF;
+}
+.happening{
+    font-size: 40px; font-weight: 700;margin-bottom: 30px; width: 350px;
+}
+.join{
+    font-size: 18px; font-weight: 700;
+}
+.body1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute; 
+    /*问题在这里*/
+    
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+    border-radius: 20px;
+    /* border: #eee solid 1px; */
+}
+
+.body1 .img{
+    display: inline-block;
+    align-self: center;
+    margin-right: 110px;
+    vertical-align: middle;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.body1 .head{
+    /* margin-right: -100px; */
+    transform: scale(1.25);
+    vertical-align: middle;
+    align-self: center;
+}
+
+.denglu{
+    width: 250px;
+    text-decoration: none;
+    text-align: center;
+}
+.denglu:hover .google{
+    background-color: #eee !important;
+}
+
+.denglu:hover .apple{
+    background-color: #eee !important;
+}
+
+.body1 .head .google{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    border:2px solid #eee;
+}
+
+.body1 .head .google div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 36px;
+}
+
+.body1 .head .google img{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.body1 .head .apple{
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    border:2px solid #eee;
+}
+
+.body1 .head .apple div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.body1 .head .apple img{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.body1 .orline
+{
+    width:400px;
+    height:36px;
+    line-height:36px;
+}
+.line
+{
+    display:inline-block;
+    width:114px;
+    border-top:1px solid #cccccc;
+    vertical-align:5px;  
+}
+
+/* 让文字在水平线中显示 */
+.signline {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    color: #ddd;
+    font-size: 15px;
+}
+ 
+.signline:before,
+.signline:after {
+    content: "";
+    flex: 0.8 0.8;
+    border-bottom: 1px solid #ddd;
+    margin: auto;
+}
+
+.creatbutton{
+    margin-bottom: 5px;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: #1d9bf0;
+    border-radius: 20px;
+}
+
+.creatbutton div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.creatbutton:hover{
+    background-color: #0d8be0;
+}
+
+.signemail input{
+    width: 250px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.denglu:hover .next{
+    background-color: #eee !important;
+}
+
+.body1 .head .signnext{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    border:2px solid #eee;
+}
+
+.body1 .head .signnext div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 26px;
+}
+
+.zhengce{
+    width: 250px;
+    font-size: 8px;
+    color: #000;
+}
+
+.zhengce a{
+    color: #1d9bf0;
+}
+
+.hadac{
+    margin-top: 35px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.Signin{
+    margin-bottom: 5px;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    border:2px solid #eee;
+}
+
+.Signin div{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #1d9bf0;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.Signin:hover{
+    background-color: #eee;
+}

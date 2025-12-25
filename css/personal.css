@@ -1,0 +1,200 @@
+
+/* 修改个人资料模态框 */
+.caogao{
+    display: grid;
+    justify-content: end;
+    color: #0d8be0;
+    float: left;
+}
+
+.body002{
+    width: 600px;
+    height: 300px;
+}
+.personal{
+    position:fixed; /* 占满整个屏幕 */
+    width: 100%;
+    height: 100%;
+    /* top:0;
+    left: 0; */
+    background-color: rgba(0,0,0,0.3);/* 调节背景为黑色，透明度0.3 */
+    visibility: hidden;/*默认隐藏模态框*/
+    transform: scale(1.1);/*设置为一个1.1倍的放大 */
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 11;
+}
+.modal-content-personal{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    /* 居中 */
+    width:36rem;
+    background-color: white;
+    border-radius: 0.5rem;  /* 边框圆角 */
+    padding:0.5rem 1rem;
+}
+
+.active-personal{
+    visibility: visible;/*使模态框可见*/
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.save-button-personal{
+    text-align: center;
+    float: right;
+    color: lightgray;
+    background-color: black;
+    width:70px;
+    height: 34px;
+    line-height: 24px;
+    border: 5px solid black; /* 设置边框 */
+    border-radius: 35px;  /* 边框半径：32px；   */
+}
+
+.save-button-personal:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.close-button-personal2{
+    float: left;
+    color: lightgray;
+}
+
+.close-button-personal2:hover{
+    color: #ddd;
+    cursor: pointer;
+}
+
+/* 这里是文件上传按钮隐藏 */
+.photoinput{
+    display: none;
+}
+.videoinput{
+    display: none;
+}
+/* 修改个人资料模态框 */
+.a{
+white-space: nowrap;
+}
+
+.tuiWenBiaoDan .userNameSet{
+    vertical-align: top;
+    width: 500px;
+    /* height: 250px; */
+}
+
+.tuiWenBiaoDan .userNameSet{
+    vertical-align: top;
+    width: 470px;
+    height: 40px;
+}
+
+.tuiWenBiaoDan .briefIntroduction{
+    vertical-align: top;
+    width: 500px;
+    /* height: 250px; */
+}
+
+.tuiWenBiaoDan .briefIntroduction{
+    vertical-align: top;
+    width: 470px;
+    height: 40px;
+}
+
+.tuiWenBiaoDan .position{
+    vertical-align: top;
+    width: 500px;
+    /* height: 250px; */
+}
+
+.tuiWenBiaoDan .position{
+    vertical-align: top;
+    width: 470px;
+    height: 40px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+.backPhotoInput{
+    display: none;
+}
+
+.facePhotoInput{
+    display: none;
+}
+
+/* 头像控制*/
+.tou{
+    width:40px;
+    height:40px;
+    border-radius:40px 40px;
+}
+
+.Account{
+    position: relative;
+    top:-10px;
+}
+
+.Name{
+    position: relative;
+    left: -210px;
+    font-weight: 700;
+}
+
+.change{
+    position: relative;
+    left: 380px;
+    top:-20px;
+}
+
+.yemei{
+    width: 100%;
+    height: 100%;
+}
+
+.zhuyename{
+    position: relative;
+    left: 8px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.zhuyeaccount{
+    position: relative;
+    left: 8px;
+    font-size: 15px;
+}
+
+
+.jianjie{
+    position: relative;
+    top:7px;
+    left: 8px;
+    font-size: 15px;
+}
+
+.weizhi{
+    position: relative;
+    top:8px;
+    left: 8px;
+    font-size: 15px;
+}
+
+.shengri{
+    position: relative;
+    top:8px;
+    left: 8px;
+    font-size: 15px;
+}
+
+.yemei
+{
+    position: relative;
+    top:7px;
+}

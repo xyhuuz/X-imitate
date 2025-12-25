@@ -1,0 +1,192 @@
+.create{
+    position:fixed !important; /* 占满整个屏幕 */
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3) !important;/* 调节背景为黑色，透明度0.3 */
+    visibility: hidden;/*默认隐藏模态框*/
+    transform: scale(1.1);/*设置为一个1.1倍的放大*/
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 11;
+}
+
+.body3{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+    width: 600px;
+    height: 520px;
+    background-color: #fff;
+    border: #eee solid 1px;
+    border-radius: 20px;
+}
+.signin{
+    position:fixed !important; /* 占满整个屏幕 */
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3) !important;/* 调节背景为黑色，透明度0.3 */
+    visibility: hidden;/*默认隐藏模态框*/
+    transform: scale(1.1);/*设置为一个1.1倍的放大*/
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 11;
+}
+
+.google_signin{
+    position:fixed !important; /* 占满整个屏幕 */
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3) !important;/* 调节背景为黑色，透明度0.3 */
+    visibility: hidden;/*默认隐藏模态框*/
+    transform: scale(1.1);/*设置为一个1.1倍的放大*/
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 11;
+}
+
+.apple_signin{
+    position:fixed !important; /* 占满整个屏幕 */
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3) !important;/* 调节背景为黑色，透明度0.3 */
+    visibility: hidden;/*默认隐藏模态框*/
+    transform: scale(1.1);/*设置为一个1.1倍的放大*/
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 11;
+}
+
+.apple_signin .apple-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* 居中 */
+    width:24rem;
+    background-color: white;
+    border-radius: 0.5rem;  /* 边框圆角 */
+    padding:0.5rem 1rem;
+}
+.google_signin .google-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* 居中 */
+    width:24rem;
+    background-color: white;
+    border-radius: 0.5rem;  /* 边框圆角 */
+    padding:0.5rem 1rem;
+}
+ .signin .signin-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    /* 居中 */
+    width:24rem;
+    background-color: white;
+    border-radius: 0.5rem;  /* 边框圆角 */
+    padding:0.5rem 1rem;
+}
+
+
+.active-create{
+    visibility: visible;/*使模态框可见*/
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.active-signin{
+    visibility: visible;/*使模态框可见*/
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.active-google{
+    visibility: visible;/*使模态框可见*/
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.active-apple{
+    visibility: visible;/*使模态框可见*/
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+/* .anliu{
+    display: flex;
+    position: b;
+    top:0;
+    left: 0;
+} */
+
+.create .close-button{
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    float: left;
+    color: lightgray;
+}
+
+.signin .close-button-signin{
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    float: left;
+    color: lightgray;
+}
+
+.google_signin .close-button-google{
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    float: left;
+    color: lightgray;
+}
+
+.apple_signin .close-button-apple{
+    display: flex;
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    float: left;
+    color: lightgray;
+}
+
+.apple_signin .close-button-apple:hover{
+    color: black;
+    cursor: pointer;
+}
+.google_signin .close-button-google:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.signin .close-button-signin:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.close-button:hover{
+    color: black;
+    cursor: pointer;
+}
